@@ -1,0 +1,195 @@
+/* أنماط صفحة إدارة المدراء للمشرف - managers.css */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.add-btn {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-btn:hover {
+    background-color: #e0a800;
+    color: #000;
+    transform: translateY(-2px);
+}
+
+.manager-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+
+.manager-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border-color: #3498db;
+}
+
+.manager-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.manager-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.manager-role {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.manager-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    color: #666;
+    font-size: 1rem;
+}
+
+.manager-info i {
+    width: 24px;
+    margin-left: 10px;
+    color: #3498db;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.action-btn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.95rem;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 120px;
+    justify-content: center;
+}
+
+.view-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #2980b9;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.edit-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #27ae60;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.activate-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+.activate-btn:hover {
+    background-color: #d35400;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.status-badge {
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.status-active {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-inactive {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.page-title {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+}
+
+.confirmation-modal .modal-content {
+    border-radius: 15px;
+}
+
+.confirmation-modal .modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.confirmation-modal .modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
